@@ -1,0 +1,522 @@
+{
+	"info": {
+		"_postman_id": "b841a66c-5bd8-4999-9ddf-e66a68c72d42",
+		"name": "vistaB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ffff",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8000/user/register?name=hosein&tel=09399201022&password=secret",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"register"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "hosein"
+						},
+						{
+							"key": "tel",
+							"value": "09399201022"
+						},
+						{
+							"key": "password",
+							"value": "secret"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tel",
+							"value": "09351043534",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "amir4589",
+							"type": "text"
+						},
+						{
+							"key": "password_repeat",
+							"value": "amir4589",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/student/register",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"student",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/student/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"student",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "reza",
+							"type": "text"
+						},
+						{
+							"key": "tel",
+							"value": "09351930456",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/student/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"student",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register teacher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "hoseini",
+							"type": "text"
+						},
+						{
+							"key": "tel",
+							"value": "09351056789",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "2345",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/teacher/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teacher",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login teacher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/teacher/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teacher",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register information",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "ali",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "amirebne8@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "birth",
+							"value": "4884",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "f.jpg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/student/register/information",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"student",
+						"register",
+						"information"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "like store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "course_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/like/course/store",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"like",
+						"course",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "liken human",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/like/course/human",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"like",
+						"course",
+						"human"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "like count",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "course_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/like/course/count",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"like",
+						"course",
+						"count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "like top",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "vistab.dev/api/like/course/top",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"like",
+						"course",
+						"top"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "target store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "course_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/target/course/store",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"target",
+						"course",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taget course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "course_id",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/target/course/show",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"target",
+						"course",
+						"show"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "comment student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "comment",
+							"value": "hjgjhrrehgddddddytutut",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vistab.dev/api/comment",
+					"host": [
+						"vistab",
+						"dev"
+					],
+					"path": [
+						"api",
+						"comment"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
